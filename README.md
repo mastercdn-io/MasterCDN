@@ -1,6 +1,28 @@
 # Ansible 部署文档
 
-⚠️  注意如下
+## 下载说明
+
+完整部署包请前往 Releases 页面下载：
+
+https://github.com/mastercdn-io/MasterCDN/releases
+
+请选择最新版本（如 `MasterCDN v5.5.0`），下载对应压缩包后再进行部署。
+
+
+
+## 项目说明
+
+本项目为 MasterCDN 的 Ansible 自动化部署方案，支持：
+
+- CDN 管理系统部署
+- WAF / CC 防护
+- 边缘节点管理
+- 日志与监控系统（Prometheus / ES / Kibana）
+
+
+
+
+## 注意如下
 
 > 目前已全量支持支持ansible安装，提前配置好对应域名的dns解析再去安装（会去自动申请SSL证书），以及配置好hosts和all.yml即可开始安装.
 >
