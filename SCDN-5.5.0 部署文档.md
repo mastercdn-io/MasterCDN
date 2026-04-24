@@ -22,7 +22,7 @@
 
 ## 安装顺序
 
-- 按照Ansible目录中的Readme进行部署即可
+- 按照README.md进行部署即可
 
 
 
